@@ -159,7 +159,7 @@ class HeaderDrawer extends StatelessWidget {
                 color: colorTextWhite, fontSize: ScreenUtil().setSp(fzTitle)),
           ),
           Text(
-            'thcsbinhkhe@dongtrieu.edu.vn',
+            AppValues.schoolEmail,
             style: Theme.of(context).primaryTextTheme.subtitle.copyWith(
                 color: transparentWhite56,
                 fontSize: ScreenUtil().setSp(fzCaption)),
