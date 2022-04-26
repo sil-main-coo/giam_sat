@@ -1,0 +1,15 @@
+import 'package:attendance_app/model/models.dart';
+import 'package:equatable/equatable.dart';
+
+class ClassroomsEvent extends Equatable{
+  const ClassroomsEvent();
+
+  @override
+  // TODO: implement props
+  List<Object> get props => [];
+}
+
+class FetchClassrooms extends ClassroomsEvent{}
+
+
+class TimerTicked extends ClassroomsEvent{}
