@@ -1,4 +1,4 @@
-import 'package:attendance_app/model/models.dart';
+import 'package:do_an_at140225/model/models.dart';
 import 'package:equatable/equatable.dart';
 import 'package:flutter/material.dart';
 
@@ -12,11 +12,9 @@ class UpdateDataState extends Equatable {
 
 class LoadingData extends UpdateDataState {}
 
-class ShowDialogDataState extends UpdateDataState {}
-
 class LoadedData extends UpdateDataState {
   final List<Classroom> classrooms;
-  final bool isChange; //  >>> todo : lỗi currentState  = newState ???
+  final bool isChange;
 
   const LoadedData({this.classrooms = const [], this.isChange = true});
 
@@ -28,14 +26,13 @@ class LoadedData extends UpdateDataState {
   }
 
   @override
-  // TODO: implement props
   List<Object> get props => [classrooms, isChange];
 }
 
 class FailedData extends UpdateDataState {
   final Exception error;
 
-  FailedData({@required this.error});
+  FailedData({ this.error});
 
   @override
   List<Object> get props => [error];

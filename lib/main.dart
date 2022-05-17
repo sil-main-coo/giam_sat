@@ -1,7 +1,7 @@
-import 'package:attendance_app/app.dart';
-import 'package:attendance_app/bloc/app_bloc/bloc.dart';
-import 'package:attendance_app/bloc_delegate.dart';
-import 'package:attendance_app/provider/singletons/get_it.dart';
+import 'package:do_an_at140225/app.dart';
+import 'package:do_an_at140225/bloc/app_bloc/bloc.dart';
+import 'package:do_an_at140225/bloc_delegate.dart';
+import 'package:do_an_at140225/provider/singletons/get_it.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
@@ -18,6 +18,7 @@ void main() {
 
   setupLocator(); // setup get it : MQTT service
   BlocSupervisor.delegate = AppBlocDelegate(); // setup logging bloc
+
   // set only vertical screen
   SystemChrome.setPreferredOrientations([
     DeviceOrientation.portraitUp,

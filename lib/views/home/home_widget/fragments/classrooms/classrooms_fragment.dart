@@ -1,6 +1,6 @@
-import 'package:attendance_app/configs/values/string.dart';
-import 'package:attendance_app/configs/values/values.dart';
-import 'package:attendance_app/views/widgets/appbar/appbar_primary.dart';
+import 'package:do_an_at140225/configs/values/string.dart';
+import 'package:do_an_at140225/configs/values/values.dart';
+import 'package:do_an_at140225/views/widgets/appbar/appbar_primary.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/screenutil.dart';
 

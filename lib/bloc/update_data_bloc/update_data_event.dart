@@ -1,5 +1,5 @@
-import 'package:attendance_app/model/api/api.dart';
-import 'package:attendance_app/model/mqtt/message.dart';
+import 'package:do_an_at140225/model/api/api.dart';
+import 'package:do_an_at140225/model/mqtt/message.dart';
 import 'package:equatable/equatable.dart';
 import 'package:flutter/material.dart';
 

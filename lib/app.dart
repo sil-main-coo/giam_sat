@@ -1,19 +1,18 @@
-import 'package:attendance_app/bloc/app_bloc/bloc.dart';
-import 'package:attendance_app/bloc/mqtt_bloc/bloc.dart';
-import 'package:attendance_app/bloc/update_data_bloc/bloc.dart';
-import 'package:attendance_app/provider/singletons/get_it.dart';
-import 'package:attendance_app/views/home/classrooms_bloc/bloc.dart';
-import 'package:attendance_app/views/home/loadings/loading_home.dart';
-import 'package:attendance_app/views/login/login.dart';
-import 'package:attendance_app/views/router/route_name.dart';
-import 'package:attendance_app/views/router/router.dart';
-import 'package:attendance_app/views/home/classrooms_bloc/classrooms_bloc.dart';
-import 'package:attendance_app/views/splash/splash_screen.dart';
+import 'package:do_an_at140225/bloc/app_bloc/bloc.dart';
+import 'package:do_an_at140225/bloc/mqtt_bloc/bloc.dart';
+import 'package:do_an_at140225/bloc/update_data_bloc/bloc.dart';
+import 'package:do_an_at140225/provider/singletons/get_it.dart';
+import 'package:do_an_at140225/views/home/classrooms_bloc/bloc.dart';
+import 'package:do_an_at140225/views/home/loadings/loading_home.dart';
+import 'package:do_an_at140225/views/login/login.dart';
+import 'package:do_an_at140225/views/router/route_name.dart';
+import 'package:do_an_at140225/views/router/router.dart';
+import 'package:do_an_at140225/views/home/classrooms_bloc/classrooms_bloc.dart';
+import 'package:do_an_at140225/views/splash/splash_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'configs/values/values.dart';
-import 'views/classroom/tabs/attendance/identified/identified_bloc.dart';
 
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.

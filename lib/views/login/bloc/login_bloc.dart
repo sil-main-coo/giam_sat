@@ -1,6 +1,6 @@
 import 'dart:async';
-import 'package:attendance_app/bloc/app_bloc/bloc.dart';
-import 'package:attendance_app/views/login/bloc/bloc.dart';
+import 'package:do_an_at140225/bloc/app_bloc/bloc.dart';
+import 'package:do_an_at140225/views/login/bloc/bloc.dart';
 import 'package:bloc/bloc.dart';
 import 'package:flutter/cupertino.dart';
 

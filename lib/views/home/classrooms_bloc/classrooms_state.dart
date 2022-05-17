@@ -1,4 +1,4 @@
-import 'package:attendance_app/model/api/classroom.dart';
+import 'package:do_an_at140225/model/api/classroom.dart';
 import 'package:equatable/equatable.dart';
 import 'package:flutter/material.dart';
 

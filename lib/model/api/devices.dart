@@ -1,4 +1,4 @@
-import 'package:attendance_app/model/models.dart';
+import 'package:do_an_at140225/model/models.dart';
 import 'package:equatable/equatable.dart';
 import 'package:mqtt_client/mqtt_client.dart';
 
@@ -44,7 +44,6 @@ class Devices extends AppTopic with EquatableMixin {
     if (arr.length >= _devices.length) {
       for (int i = 0; i < arr.length; i++) {
         _devices[i].setStatus(arr[i]);
-//        print(_devices[i].status);
       }
     } else {
       for (int i = 0; i < _devices.length; i++) {
@@ -58,7 +57,6 @@ class Devices extends AppTopic with EquatableMixin {
   }
 
   @override
-  // TODO: implement props
   List<Object> get props => [devices];
 }
 
@@ -95,7 +93,6 @@ class Device extends Equatable {
   String get label => _label;
 
   @override
-  // TODO: implement props
   List<Object> get props => [label, name, status, qos];
 
   MqttQos get qos => _qos;

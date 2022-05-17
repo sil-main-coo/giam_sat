@@ -1,8 +1,8 @@
-import 'package:attendance_app/bloc/mqtt_bloc/bloc.dart';
-import 'package:attendance_app/bloc/update_data_bloc/bloc.dart';
-import 'package:attendance_app/model/models.dart';
-import 'package:attendance_app/provider/mqtt/mqtt_service.dart';
-import 'package:attendance_app/provider/singletons/get_it.dart';
+import 'package:do_an_at140225/bloc/mqtt_bloc/bloc.dart';
+import 'package:do_an_at140225/bloc/update_data_bloc/bloc.dart';
+import 'package:do_an_at140225/model/models.dart';
+import 'package:do_an_at140225/provider/mqtt/mqtt_service.dart';
+import 'package:do_an_at140225/provider/singletons/get_it.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:mqtt_client/mqtt_client.dart';
@@ -15,7 +15,6 @@ class MQTTBloc extends Bloc<MQTTEvent, MQTTState> {
   MQTTBloc(this._updateDataBloc);
 
   @override
-  // TODO: implement initialState
   MQTTState get initialState => LoadingState();
 
   @override
@@ -24,7 +23,6 @@ class MQTTBloc extends Bloc<MQTTEvent, MQTTState> {
       yield* _connectMQTT(event);
     } else if (event is DisconnectMQTTT) {
       _mqttService.disconnectMQTT();
-//      yield DisconnectedMQTT();
     }
   }
 
@@ -43,10 +41,6 @@ class MQTTBloc extends Bloc<MQTTEvent, MQTTState> {
             classroom.appSensors.topicString, classroom.appSensors.qos);
         _mqttService.client.subscribe(
             classroom.remote.topicString, classroom.appSensors.qos);
-//        _mqttService.client
-//            .subscribe(classroom.devices.topicString, classroom.devices.qos);
-//         _mqttService.client
-//             .subscribe(classroom.persons.topicString, classroom.persons.qos);
 
         // listen data change
         _mqttService.client.updates

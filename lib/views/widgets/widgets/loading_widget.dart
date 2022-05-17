@@ -1,9 +1,7 @@
-import 'package:attendance_app/configs/values/values.dart';
-import 'package:attendance_app/views/widgets/widgets/indicator.dart';
+import 'package:do_an_at140225/configs/values/values.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_screenutil/screenutil.dart';
-import 'package:loading/loading.dart';
 
 class AppLoadingWidget extends StatelessWidget {
   final String mess;

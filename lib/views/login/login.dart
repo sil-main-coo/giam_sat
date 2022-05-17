@@ -1,6 +1,6 @@
 
-import 'package:attendance_app/bloc/app_bloc/bloc.dart';
-import 'package:attendance_app/views/login/bloc/bloc.dart';
+import 'package:do_an_at140225/bloc/app_bloc/bloc.dart';
+import 'package:do_an_at140225/views/login/bloc/bloc.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import '../widgets/bg_gradient.dart';

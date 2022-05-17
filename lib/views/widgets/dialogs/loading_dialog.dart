@@ -1,5 +1,5 @@
-import 'package:attendance_app/configs/values/values.dart';
-import 'package:attendance_app/views/widgets/widgets/indicator.dart';
+import 'package:do_an_at140225/configs/values/values.dart';
+import 'package:do_an_at140225/views/widgets/widgets/indicator.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/screenutil.dart';

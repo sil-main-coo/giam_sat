@@ -1,12 +1,12 @@
 import 'dart:async';
 
-import 'package:attendance_app/bloc/mqtt_bloc/bloc.dart';
-import 'package:attendance_app/bloc/update_data_bloc/bloc.dart';
-import 'package:attendance_app/configs/values/colors.dart';
-import 'package:attendance_app/configs/values/font_size.dart';
-import 'package:attendance_app/views/home/classrooms_bloc/bloc.dart';
-import 'package:attendance_app/views/router/route_name.dart';
-import 'package:attendance_app/views/widgets/widgets/error_widget.dart';
+import 'package:do_an_at140225/bloc/mqtt_bloc/bloc.dart';
+import 'package:do_an_at140225/bloc/update_data_bloc/bloc.dart';
+import 'package:do_an_at140225/configs/values/colors.dart';
+import 'package:do_an_at140225/configs/values/font_size.dart';
+import 'package:do_an_at140225/views/home/classrooms_bloc/bloc.dart';
+import 'package:do_an_at140225/views/router/route_name.dart';
+import 'package:do_an_at140225/views/widgets/widgets/error_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/screenutil.dart';

@@ -1,6 +1,6 @@
-# attendance_app
+# do_an_at140225
 
-A new Flutter application.
+A new Flutter project.
 
 ## Getting Started
 

@@ -1,8 +1,8 @@
-import 'package:attendance_app/configs/parse_value/parse_time.dart';
-import 'package:attendance_app/configs/values/colors.dart';
-import 'package:attendance_app/configs/values/string.dart';
-import 'package:attendance_app/views/home/classrooms_bloc/bloc.dart';
-import 'package:attendance_app/views/widgets/bg_gradient.dart';
+import 'package:do_an_at140225/configs/parse_value/parse_time.dart';
+import 'package:do_an_at140225/configs/values/colors.dart';
+import 'package:do_an_at140225/configs/values/string.dart';
+import 'package:do_an_at140225/views/home/classrooms_bloc/bloc.dart';
+import 'package:do_an_at140225/views/widgets/bg_gradient.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/screenutil.dart';

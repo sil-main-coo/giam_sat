@@ -1,7 +1,7 @@
 import 'dart:async';
-import 'package:attendance_app/bloc/app_bloc/app_event.dart';
-import 'package:attendance_app/bloc/app_bloc/bloc.dart';
-import 'package:attendance_app/provider/local/local_provider.dart';
+import 'package:do_an_at140225/bloc/app_bloc/app_event.dart';
+import 'package:do_an_at140225/bloc/app_bloc/bloc.dart';
+import 'package:do_an_at140225/provider/local/local_provider.dart';
 import 'package:bloc/bloc.dart';
 
 

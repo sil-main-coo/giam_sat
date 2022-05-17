@@ -1,4 +1,4 @@
-import 'package:attendance_app/model/api/account.dart';
+import 'package:do_an_at140225/model/api/account.dart';
 import 'package:meta/meta.dart';
 import 'package:equatable/equatable.dart';
 

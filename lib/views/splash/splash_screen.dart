@@ -1,10 +1,10 @@
 
-import 'package:attendance_app/bloc/app_bloc/app_bloc.dart';
-import 'package:attendance_app/bloc/app_bloc/bloc.dart';
-import 'package:attendance_app/configs/values/colors.dart';
-import 'package:attendance_app/views/router/route_name.dart';
-import 'package:attendance_app/views/widgets/bg_gradient.dart';
-import 'package:attendance_app/views/widgets/widgets/loading_widget.dart';
+import 'package:do_an_at140225/bloc/app_bloc/app_bloc.dart';
+import 'package:do_an_at140225/bloc/app_bloc/bloc.dart';
+import 'package:do_an_at140225/configs/values/colors.dart';
+import 'package:do_an_at140225/views/router/route_name.dart';
+import 'package:do_an_at140225/views/widgets/bg_gradient.dart';
+import 'package:do_an_at140225/views/widgets/widgets/loading_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/screenutil.dart';

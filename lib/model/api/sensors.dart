@@ -1,4 +1,4 @@
-import 'package:attendance_app/model/models.dart';
+import 'package:do_an_at140225/model/models.dart';
 import 'package:equatable/equatable.dart';
 import 'package:mqtt_client/mqtt_client.dart';
 
@@ -48,7 +48,6 @@ class Param extends Equatable{
     _hum = double.parse(json['hum']);
     _gas = double.parse(json['gas']);
     _lux = double.parse(json['lux']);
-    //_person = json['persons'];
   }
 
   int get person => _person;

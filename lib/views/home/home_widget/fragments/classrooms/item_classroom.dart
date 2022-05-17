@@ -1,6 +1,6 @@
-import 'package:attendance_app/configs/values/values.dart';
-import 'package:attendance_app/model/api/api.dart';
-import 'package:attendance_app/views/router/route_name.dart';
+import 'package:do_an_at140225/configs/values/values.dart';
+import 'package:do_an_at140225/model/api/api.dart';
+import 'package:do_an_at140225/views/router/route_name.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 

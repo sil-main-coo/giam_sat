@@ -1,8 +1,8 @@
-import 'package:attendance_app/bloc/update_data_bloc/bloc.dart';
-import 'package:attendance_app/configs/values/colors.dart';
-import 'package:attendance_app/configs/values/font_size.dart';
-import 'package:attendance_app/views/widgets/animations/delay_animation.dart';
-import 'package:attendance_app/views/widgets/widgets/widgets.dart';
+import 'package:do_an_at140225/bloc/update_data_bloc/bloc.dart';
+import 'package:do_an_at140225/configs/values/colors.dart';
+import 'package:do_an_at140225/configs/values/font_size.dart';
+import 'package:do_an_at140225/views/widgets/animations/delay_animation.dart';
+import 'package:do_an_at140225/views/widgets/widgets/widgets.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';

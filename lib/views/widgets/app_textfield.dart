@@ -1,6 +1,6 @@
 
-import 'package:attendance_app/configs/values/validator.dart';
-import 'package:attendance_app/configs/values/values.dart';
+import 'package:do_an_at140225/configs/values/validator.dart';
+import 'package:do_an_at140225/configs/values/values.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/screenutil.dart';
 

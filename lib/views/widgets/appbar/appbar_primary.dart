@@ -1,5 +1,5 @@
-import 'package:attendance_app/configs/values/size_widget.dart';
-import 'package:attendance_app/configs/values/values.dart';
+import 'package:do_an_at140225/configs/values/size_widget.dart';
+import 'package:do_an_at140225/configs/values/values.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
